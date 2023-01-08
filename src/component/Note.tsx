@@ -1,6 +1,6 @@
 import { Badge, Button, Col, Row, Stack } from "react-bootstrap";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-import { useNote } from "./NoteLayout";
+import { useNote } from "../pages/NoteLayout";
 import ReactMarkdown from "react-markdown";
 
 type NoteProps = {

@@ -5,7 +5,7 @@ import Row from "react-bootstrap/esm/Row";
 import Stack from "react-bootstrap/esm/Stack";
 import CreatableReactSelect from "react-select/creatable";
 import { useRef, FormEvent, useState } from "react";
-import { NoteData, Tag } from "../App";
+import { NoteData, Tag } from "../types/types";
 import { v4 as uuid } from "uuid";
 import { Link, useNavigate } from "react-router-dom";
 

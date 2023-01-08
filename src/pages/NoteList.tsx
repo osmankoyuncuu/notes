@@ -2,10 +2,9 @@ import { Button, Col, Form, Row, Stack } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import ReactSelect from "react-select";
 import { useState, useMemo } from "react";
-import { Note, Tag } from "../App";
-import NewNote from "./NewNote";
-import NoteCard from "./NoteCard";
-import EditTagsModal from "./EditTagsModal";
+import { Note, Tag } from "../types/types";
+import NoteCard from "../component/NoteCard";
+import EditTagsModal from "../component/EditTagsModal";
 
 type NoteListProps = {
   availableTags: Tag[];
